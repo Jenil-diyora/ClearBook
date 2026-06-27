@@ -16,7 +16,7 @@ namespace Billing.WebApp.Settings
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddDbContext<DataContext>(options =>
             {
-                options.UseSqlServer(config.GetConnectionString("DefaultConnection"));
+                options.UseSqlite(config.GetConnectionString("DefaultConnection"));
             });
 
             return services;
