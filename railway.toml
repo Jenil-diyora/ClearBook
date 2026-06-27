@@ -1,0 +1,9 @@
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "src/Billing.WebApp/Dockerfile"
+dockerContext = "."
+
+[deploy]
+startCommand = "dotnet Billing.WebApp.dll"
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 3
