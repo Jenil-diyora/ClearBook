@@ -1,5 +1,7 @@
 # 💼 ClearBook — Premium .NET 8 + React Billing & Invoicing System
 
+![ClearBook Dashboard](docs/images/clearbook-dashboard.png)
+
 ClearBook is a modern, responsive, and secure full-stack billing and invoice management system built on a **.NET 8 Web API** backend and a **React 16 (Redux Toolkit + Axios)** SPA frontend. It features a curated light design system with Slate accents, vector icons, secure JWT authentication, and automatic EF Core database migrations.
 
 ---
