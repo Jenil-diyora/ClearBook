@@ -255,3 +255,5 @@ _Pvt_Extensions
 
 # Mac OSX
 .DS_Store
+portfolio-repo/
+portfolio-repo/**/*
